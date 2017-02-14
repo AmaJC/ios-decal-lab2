@@ -6,6 +6,7 @@
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
@@ -21,49 +22,34 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7fU-oy-Cij">
-                                <rect key="frame" x="16" y="28" width="101" height="100"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7fU-oy-Cij">
+                                <rect key="frame" x="12" y="28" width="110" height="110"/>
                                 <color key="backgroundColor" red="0.124305626696807" green="0.64206498066666673" blue="0.14861982794612164" alpha="1" colorSpace="calibratedRGB"/>
                             </button>
-                            <button opaque="NO" tag="3" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eoK-rx-7rw">
-                                <rect key="frame" x="16" y="150" width="101" height="100"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <button opaque="NO" tag="3" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eoK-rx-7rw">
+                                <rect key="frame" x="12" y="148" width="110" height="110"/>
                                 <color key="backgroundColor" red="0.5077974540229484" green="0.049220415819143132" blue="0.75278212810256406" alpha="1" colorSpace="calibratedRGB"/>
                             </button>
-                            <button opaque="NO" tag="6" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hkn-GQ-Udd">
-                                <rect key="frame" x="16" y="272" width="343" height="100"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <button opaque="NO" tag="6" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hkn-GQ-Udd">
+                                <rect key="frame" x="12" y="269" width="352" height="100"/>
                                 <color key="backgroundColor" red="0.00068403703634520969" green="0.16671037003527003" blue="0.79040464743589745" alpha="1" colorSpace="calibratedRGB"/>
                             </button>
-                            <button opaque="NO" tag="4" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="X2h-73-4Ab">
-                                <rect key="frame" x="137" y="150" width="101" height="100"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <button opaque="NO" tag="4" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="X2h-73-4Ab">
+                                <rect key="frame" x="133" y="148" width="110" height="110"/>
                                 <color key="backgroundColor" red="0.50779745399999998" green="0.049220415820000002" blue="0.7527821281" alpha="1" colorSpace="calibratedRGB"/>
                             </button>
-                            <button opaque="NO" tag="5" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="W6f-9O-gE6">
-                                <rect key="frame" x="258" y="150" width="101" height="100"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <button opaque="NO" tag="5" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="W6f-9O-gE6">
+                                <rect key="frame" x="254" y="148" width="110" height="110"/>
                                 <color key="backgroundColor" red="0.50779745399999998" green="0.049220415820000002" blue="0.7527821281" alpha="1" colorSpace="calibratedRGB"/>
                             </button>
-                            <button opaque="NO" tag="1" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ise-wf-hK2">
-                                <rect key="frame" x="137" y="27" width="101" height="100"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <button opaque="NO" tag="1" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ise-wf-hK2">
+                                <rect key="frame" x="133" y="27" width="110" height="110"/>
                                 <color key="backgroundColor" red="0.1243056267" green="0.64206498069999995" blue="0.1486198279" alpha="1" colorSpace="calibratedRGB"/>
                             </button>
-                            <button opaque="NO" tag="2" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="19w-z3-awr">
-                                <rect key="frame" x="258" y="28" width="101" height="100"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <button opaque="NO" tag="2" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="19w-z3-awr">
+                                <rect key="frame" x="254" y="28" width="110" height="110"/>
                                 <color key="backgroundColor" red="0.1243056267" green="0.64206498069999995" blue="0.1486198279" alpha="1" colorSpace="calibratedRGB"/>
                             </button>
-                            <segmentedControl opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="UWW-fF-WTC">
-                                <rect key="frame" x="165" y="623" width="194" height="29"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <segments>
-                                    <segment title="Acoustic"/>
-                                    <segment title="Second"/>
-                                </segments>
-                            </segmentedControl>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Drum Kit Type" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0Ah-K1-wnl">
                                 <rect key="frame" x="16" y="623" width="159" height="21"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -71,8 +57,47 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <segmentedControl opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="UWW-fF-WTC">
+                                <rect key="frame" x="184" y="620" width="180" height="29"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <segments>
+                                    <segment title="Acoustic"/>
+                                    <segment title="Second"/>
+                                </segments>
+                            </segmentedControl>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="Ise-wf-hK2" firstAttribute="leading" secondItem="7fU-oy-Cij" secondAttribute="trailing" constant="8" symbolic="YES" id="04Z-eN-jrM"/>
+                            <constraint firstItem="Ise-wf-hK2" firstAttribute="height" secondItem="7fU-oy-Cij" secondAttribute="height" id="0B3-d7-WfG"/>
+                            <constraint firstItem="W6f-9O-gE6" firstAttribute="trailing" secondItem="19w-z3-awr" secondAttribute="trailing" id="4Hc-qD-9hR"/>
+                            <constraint firstItem="Ise-wf-hK2" firstAttribute="centerY" secondItem="7fU-oy-Cij" secondAttribute="centerY" id="5Mu-kP-Q6E"/>
+                            <constraint firstItem="W6f-9O-gE6" firstAttribute="width" secondItem="7fU-oy-Cij" secondAttribute="width" id="88E-zB-hBZ"/>
+                            <constraint firstItem="19w-z3-awr" firstAttribute="width" secondItem="7fU-oy-Cij" secondAttribute="width" id="8M3-lP-RFb"/>
+                            <constraint firstItem="19w-z3-awr" firstAttribute="height" secondItem="7fU-oy-Cij" secondAttribute="height" id="97b-F3-Oo7"/>
+                            <constraint firstItem="hkn-GQ-Udd" firstAttribute="leading" secondItem="7fU-oy-Cij" secondAttribute="leading" id="9Ha-rh-BCJ"/>
+                            <constraint firstItem="X2h-73-4Ab" firstAttribute="width" secondItem="7fU-oy-Cij" secondAttribute="width" id="9JU-bq-4gL"/>
+                            <constraint firstItem="eoK-rx-7rw" firstAttribute="centerY" secondItem="W6f-9O-gE6" secondAttribute="centerY" id="FGB-LK-kn8"/>
+                            <constraint firstItem="19w-z3-awr" firstAttribute="centerY" secondItem="7fU-oy-Cij" secondAttribute="centerY" id="G83-rX-ULn"/>
+                            <constraint firstItem="19w-z3-awr" firstAttribute="leading" secondItem="Ise-wf-hK2" secondAttribute="trailing" constant="8" symbolic="YES" id="Isd-xK-Je1"/>
+                            <constraint firstItem="W6f-9O-gE6" firstAttribute="height" secondItem="7fU-oy-Cij" secondAttribute="height" id="JzZ-Lp-Kzw"/>
+                            <constraint firstItem="eoK-rx-7rw" firstAttribute="leading" secondItem="7fU-oy-Cij" secondAttribute="leading" id="Ms1-5m-MP0"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="hkn-GQ-Udd" secondAttribute="bottom" constant="298" id="Sjw-wy-v3Z"/>
+                            <constraint firstItem="19w-z3-awr" firstAttribute="centerX" secondItem="W6f-9O-gE6" secondAttribute="centerX" id="Te2-9T-bKF"/>
+                            <constraint firstItem="7fU-oy-Cij" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="-4" id="UMy-Ci-XSR"/>
+                            <constraint firstItem="Ise-wf-hK2" firstAttribute="centerX" secondItem="X2h-73-4Ab" secondAttribute="centerX" id="Uz4-5T-j1O"/>
+                            <constraint firstItem="eoK-rx-7rw" firstAttribute="centerY" secondItem="X2h-73-4Ab" secondAttribute="centerY" id="WAu-Q3-mlU"/>
+                            <constraint firstItem="eoK-rx-7rw" firstAttribute="height" secondItem="7fU-oy-Cij" secondAttribute="height" id="Yk1-sC-nki"/>
+                            <constraint firstItem="hkn-GQ-Udd" firstAttribute="height" secondItem="7fU-oy-Cij" secondAttribute="height" id="Zkc-gJ-2X0"/>
+                            <constraint firstItem="hkn-GQ-Udd" firstAttribute="top" secondItem="eoK-rx-7rw" secondAttribute="bottom" constant="8" symbolic="YES" id="bHz-Xa-Z8h"/>
+                            <constraint firstItem="7fU-oy-Cij" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="20" id="c9E-6E-kkv"/>
+                            <constraint firstItem="eoK-rx-7rw" firstAttribute="width" secondItem="7fU-oy-Cij" secondAttribute="width" id="gYd-7m-EET"/>
+                            <constraint firstItem="Ise-wf-hK2" firstAttribute="width" secondItem="7fU-oy-Cij" secondAttribute="width" id="mdP-Sp-vd8"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="19w-z3-awr" secondAttribute="trailing" constant="-4" id="mpz-yp-SYT"/>
+                            <constraint firstItem="hkn-GQ-Udd" firstAttribute="trailing" secondItem="19w-z3-awr" secondAttribute="trailing" id="sDz-pO-I5F"/>
+                            <constraint firstItem="X2h-73-4Ab" firstAttribute="height" secondItem="7fU-oy-Cij" secondAttribute="height" id="tyz-gG-ueF"/>
+                            <constraint firstItem="eoK-rx-7rw" firstAttribute="top" secondItem="7fU-oy-Cij" secondAttribute="bottom" constant="8" symbolic="YES" id="u4A-vZ-tiH"/>
+                        </constraints>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
