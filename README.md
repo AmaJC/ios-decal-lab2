@@ -13,7 +13,7 @@ To get started, first clone this repository onto your own computer:
 	
 	git clone https://github.com/iosdecal/ios-decal-lab2
 
-Open the file `Drummer.xcodeproj` to start the lab.
+Open the file `Drummer.xcodeproj` to start the lab!
 
 ## Part 1 - Getting Started ##
 Once you have opened the project in Xcode, notice the files present in the Navigator.
